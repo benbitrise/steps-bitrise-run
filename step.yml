@@ -42,7 +42,7 @@ inputs:
         It must exist in the bitrise.yml file.
       is_expand: true
       is_required: true
-  - bitrise_config_path: "./bitrise.yml"
+  - bitrise_config_path: "/.bitrise-config/bitrise.yml"
     opts:
       title: "bitrise.yml path"
       summary: "The Bitrise configuration (bitrise.yml) file path."
